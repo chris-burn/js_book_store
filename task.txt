@@ -1,0 +1,38 @@
+JS Book Store:
+
+Your task is to use JavaScript to model a Book Store.
+
+Use constructors, prototypes and TDD throughout, and enumeration and/or the Lodash library where appropriate.
+
+Part A
+
+Create a Book object that has an Author, Title, Genre, and Price
+Create a Book Store that has a Name, City and an Inventory.
+Give the Book Store a Balance.
+Add some Books to the Store's Inventory.
+
+Part B
+
+Create a method that prints out the Book's properties as a string.
+Create a method that lists the inventory.
+Create a method so the Book Store can sell a Book and adjusts the Store's balance to account for the Book being sold.
+Create a method that reports the financial situation of the Store. Balance and value of inventory.
+Create a method that allows the store to view all Books of a given Genre.
+
+Part C
+
+Create a BookWorm (or Customer) constructor who can buy and sell Books.
+The BookWorm should have cash that increase and decreases with buying and selling.
+The BookWorm shouldn't be able to buy a Book if they can't afford it.
+The BookWorm should be able to view the total value of their collection
+The BookWorm should be able to view the total value of all books of a given Genre
+The BookWorm should be able to view their longest book.
+The BookWorm should be able to sort their books by value. (ascending or descending)
+The BookWorm should be able to compare the value of their collection with another BookWorm
+
+Extension
+
+Model an AngryBookWorm that extends BookWorm
+The AngryBookWorm should be able to burn controversial books
+AngryBookWork should be able to deface a controversial book, ripping out a random number of pages
+If AngryBookWorm tries to read a controversial book, they should return an appropriate String, and stop immediately. e.g. "Oh my days!"
